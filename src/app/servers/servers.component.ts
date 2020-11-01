@@ -7,4 +7,13 @@ templateUrl : './servers.component.html'
 })
 
 export class serversComponent  {
+  allowServer=false;
+
+  constructor(){
+  setTimeout(()=>{
+  this.allowServer = true;
+  },2000)
+
 }
+}
+
